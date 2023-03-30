@@ -1,4 +1,4 @@
-import{Entity,Column, PrimaryGeneratedColumn} from 'typeorm'
+import{Entity,Column, PrimaryGeneratedColumn, OneToMany} from 'typeorm'
 
 @Entity('rol')
 export class Rol{
